@@ -1,5 +1,5 @@
 # Powershell script that opens that opens C:\SmartClientCache\Apps\Ellie Mae\Encompass - AMC\Encompass.exe and logs in to Encompass using the credentials provided in the command line arguments.
-
+Set-ExecutionPolicy Bypass -Scope Process# Defines the directory where the file is located
 # Get the command line arguments
 $arguments = $args
 
